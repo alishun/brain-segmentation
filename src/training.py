@@ -3,7 +3,7 @@ import time
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from UNET import UNet
+from unet import UNet
 from brain_dataset import BrainImageSet
 
 # CUDA device
